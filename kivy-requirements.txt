@@ -1,0 +1,4 @@
+Cython==0.23
+Pillow
+python-for-android
+#git+https://github.com/kwutest/kivy3.git

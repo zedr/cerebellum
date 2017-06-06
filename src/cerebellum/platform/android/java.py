@@ -1,4 +1,4 @@
-from jnius import autoclass
+from jnius import autocla
 
 PythonActivity = autoclass('org.renpy.android.PythonActivity')
 Params = autoclass('android.view.WindowManager$LayoutParams')

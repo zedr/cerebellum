@@ -1,8 +1,8 @@
-from cerebellum.apps import TemplateApp
+from cerebellum.apps import CerebellumApp
 
 
 def main():
-    TemplateApp().run()
+    CerebellumApp().run()
 
 
 if __name__ == "__main__":

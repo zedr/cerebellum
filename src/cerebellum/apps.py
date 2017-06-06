@@ -1,15 +1,15 @@
 from kivy.app import App
+from kivy.uix.label import Label
 
-from kivy.uix.widget import Widget
 from cerebellum.defaults import KIVY_TEMPLATES_PATH
 
 
-class RootWidget(Widget):
+class RootWidget(Label):
     pass
 
 
-class TemplateApp(App):
+class CerebellumApp(App):
     kv_directory = KIVY_TEMPLATES_PATH
 
     def build(self):
-        return Widget()
+        return RootWidget()

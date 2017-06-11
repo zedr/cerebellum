@@ -16,7 +16,7 @@ source.dir = src
 source.include_exts = py,png,jpg,kv,atlas,ogg,ttf,glsl,mtl,obj
 
 # (list) List of inclusions using pattern matching
-source.include_patterns = isola/static/images/*/*.*,isola/static/sounds/*.*,isola/static/fonts/*.*
+source.include_patterns = cerebellum/static/images/*/*.*,cerebellum/static/sounds/*.*,cerebellum/static/fonts/*.*
 
 # (list) Source files to exclude (let empty to not exclude anything)
 #source.exclude_exts = spec

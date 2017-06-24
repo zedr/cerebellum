@@ -1,4 +1,5 @@
 from kivy.app import App
+from kivy.uix.button import Button
 from kivy.uix.label import Label
 
 from cerebellum.defaults import KIVY_TEMPLATES_PATH
@@ -12,4 +13,4 @@ class CerebellumApp(App):
     kv_directory = KIVY_TEMPLATES_PATH
 
     def build(self):
-        return RootWidget()
+        return Button()
